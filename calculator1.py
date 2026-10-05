@@ -11,6 +11,8 @@ def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
+def power(a,b):
+    return a**b
 
 
 print("===== SIMPLE CALCULATOR =====")
@@ -23,3 +25,4 @@ print("Addition       :", add(a, b))
 print("Subtraction    :", subtract(a, b))
 print("Multiplication :", multiply(a, b))
 print("Division       :", divide(a, b))
+print("Power       :", power(a, b))
